@@ -1,4 +1,4 @@
-class BankAccount:
+hiiclass BankAccount:
   
   def __init__(self,account_number,account_holder_name,initial_balance):
     self.__account_number = account_number
@@ -27,7 +27,7 @@ class BankAccount:
       self.__account_balance))
 
 account = BankAccount(account_number="12345678",
-                      account_holder_name="Mubarak",
+                      account_holder_name="Abinaya",
                       initial_balance=5000.0)
 account.display_balance()
 account.withdraw(200)
